@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Todo-List-ES6</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body class="class_body">
+
+    <div class="container">
+
+            <div class="content-area row">
+                  <div class="col-md-2 col-xs-2 col-lg-2 col-sm-2 class_one">
+                      <header>
+                          <h3>Reacts-Training</h3>
+                          <a href="https://github.com/tmhung1/ReactJS-Training">Source</a>
+                      </header>
+                      <hr>
+                      <div>
+                          <span>JavaScript® (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, most known as the scripting language for Web pages, but used in many non-browser environments as well such as node.js or Apache CouchDB</span>
+                      </div>
+                     
+                      <hr>
+                      <footer>
+                          <span>If you have other helpful links to share, or find any of the links above no longer work, please let us know.</span>
+                      </footer>
+                  </div>
+            
+                  <div class="col-md-8 col-xs-8 col-lg-8 col-sm-8 class_two">
+                        <h2>todos</h2>
+                
+                        <div class="row input-area">
+                
+                            <div class="form-group col-md-5">
+                                <input type="text" placeholder="What needs to be done? " class="form-control class_input" id="addTask">
+                            </div>
+                            <div class="form-group col-md-1">
+                                <button class="btn btn-primary" onclick="toDoList.addTaskClick()">Add</button>
+                            </div>
+                            <div class="form-group col-md-1">
+                                    <button class="btn btn-success" onclick="toDoList.addTaskAllClick()">All</button>
+                            </div>
+                            <div class="form-group col-md-1">
+                                    <button class="btn btn-danger" onclick="toDoList.addTaskActiveClick()" >Active</button>
+                            </div>
+                            <div class="form-group col-md-1">
+                                    <button class="btn btn-info" onclick="toDoList.addTaskCompletedClick()" >Completed</button>
+                            </div>
+                          
+                        </div>
+                
+                        <ul class="list-group" id="taskList"></ul>
+                  </div>
+            
+                  <div class="col-md-2 col-xs-2 col-lg-2 col-sm-2"></div>
+            </div>
+            
+    </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="./js/todo.js"></script>
+</body>
+</html>
