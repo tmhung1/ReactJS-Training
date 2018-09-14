@@ -52,3 +52,17 @@ body {
   .class_input{
     margin-left: 20px;
   }
+  .complete_test{
+    display: none;
+  }
+  .total_task{
+    font-size: 18px;
+    font-family: fantasy;
+    color: #f39e04;
+}
+.active_div{
+  margin-right: 20px;
+}
+.all_div{
+  margin-left: 5px;
+}
